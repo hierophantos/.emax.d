@@ -1,0 +1,162 @@
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(ansi-color-faces-vector
+   [default bold shadow italic underline bold bold-italic bold])
+ '(ansi-color-map (ansi-color-make-color-map) t)
+ '(ansi-color-names-vector
+   ["#263238" "#74CBC4" "#546D7A" "#C792EA" "#82B1FF" "#FFCB6B" "#FF516D" "#CDD3D3"])
+ '(ansi-term-color-vector
+   [unspecified "#081724" "#ff694d" "#68f6cb" "#fffe4e" "#bad6e2" "#afc0fd" "#d2f1ff" "#d3f9ee"] t)
+ '(ccm-recenter-at-end-of-file t)
+ '(clojure-indent-style :always-indent)
+ '(company-idle-delay 0.3)
+ '(ccm-recenter-at-end-of-file t)
+ '(compilation-message-face (quote default))
+ '(cua-global-mark-cursor-color "#2aa198")
+ '(cua-normal-cursor-color "#657b83")
+ '(cua-overwrite-cursor-color "#b58900")
+ '(cua-read-only-cursor-color "#859900")
+ '(custom-enabled-themes (quote (atom-one-dark)))
+ '(custom-safe-themes
+   (quote
+    ("70b9c3d480948a3d007978b29e31d6ab9d7e259105d558c41f8b9532c13219aa" "a8245b7cc985a0610d71f9852e9f2767ad1b852c2bdea6f4aadc12cce9c4d6d0" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "ac5584b12254623419499c3a7a5388031a29be85a15fdef9b94df2292d3e2cbb" "8288b9b453cdd2398339a9fd0cec94105bc5ca79b86695bd7bf0381b1fbe8147" "3b0a350918ee819dca209cec62d867678d7dac74f6195f5e3799aa206358a983" "77c65d672b375c1e07383a9a22c9f9fc1dec34c8774fe8e5b21e76dca06d3b09" "f782ed87369a7d568cee28d14922aa6d639f49dd676124d817dd82c8208985d0" "cc0dbb53a10215b696d391a90de635ba1699072745bf653b53774706999208e3" "b9183de9666c3a16a7ffa7faaa8e9941b8d0ab50f9aaba1ca49f2f3aec7e3be9" "12b7ed9b0e990f6d41827c343467d2a6c464094cbcc6d0844df32837b50655f9" "5a21604c4b1f2df98e67cda2347b8f42dc9ce471a48164fcb8d3d52c3a0d10be" "3a5f04a517096b08b08ef39db6d12bd55c04ed3d43b344cf8bd855bde6d3a1ae" "0820d191ae80dcadc1802b3499f84c07a09803f2cb90b343678bdb03d225b26b" "3448e3f5d01b39ce75962328a5310438e4a19e76e4b691c21c8e04ca318a5f62" "3603741b2014ee5aaa94790388cbd22905cf5b645438a6354374ca01ef7216d1" "737d9d0e0f6c4279e80f7479ec5138af6e4908a2d052126f254e1e6d1a0d0188" "c158c2a9f1c5fcf27598d313eec9f9dceadf131ccd10abc6448004b14984767c" "4af6fad34321a1ce23d8ab3486c662de122e8c6c1de97baed3aa4c10fe55e060" "0dfa1f356bdb48aa03088d4034b90c65290eb4373565f52f629fdee0af92a444" "55d31108a7dc4a268a1432cd60a7558824223684afecefa6fae327212c40f8d3" "1db337246ebc9c083be0d728f8d20913a0f46edc0a00277746ba411c149d7fe5" "4f5bb895d88b6fe6a983e63429f154b8d939b4a8c581956493783b2515e22d6d" "12b4427ae6e0eef8b870b450e59e75122d5080016a9061c9696959e50d578057" "ad950f1b1bf65682e390f3547d479fd35d8c66cafa2b8aa28179d78122faa947" "e1112c5739d21c23b9c5b2307332b9038001d020f9b01cd2c24b59ffdc25b6be" "ba9be9caf9aa91eb34cf11ad9e8c61e54db68d2d474f99a52ba7e87097fa27f5" "18a33cdb764e4baf99b23dcd5abdbf1249670d412c6d3a8092ae1a7b211613d5" "e8825f26af32403c5ad8bc983f8610a4a4786eb55e3a363fa9acb48e0677fe7e" "cdd26fa6a8c6706c9009db659d2dffd7f4b0350f9cc94e5df657fa295fffec71" "4f2ede02b3324c2f788f4e0bad77f7ebc1874eff7971d2a2c9b9724a50fb3f65" "71ecffba18621354a1be303687f33b84788e13f40141580fa81e7840752d31bf" "705f3f6154b4e8fac069849507fd8b660ece013b64a0a31846624ca18d6cf5e1" "a1289424bbc0e9f9877aa2c9a03c7dfd2835ea51d8781a0bf9e2415101f70a7e" "b85fc9f122202c71b9884c5aff428eb81b99d25d619ee6fde7f3016e08515f07" "5424f18165ed7fd9c3ec8ea43d801dc9c71ab9da2b044000162a47c102ef09ea" "21e380db38e92e8c0e56e0a2446f7ac8f6851061b57ffbcadb284ffe4c102478" "a922c743710bb5d7c14995345549141f01211ff5089057dc718a5a33104c3fd1" "cb18233197cedab557c70d171b511bed49cc702f428750925280090c31498bd2" "1edf370d2840c0bf4c031a044f3f500731b41a3fd96b02e4c257522c7457882e" "91fba9a99f7b64390e1f56319c3dbbaed22de1b9676b3c73d935bf62277b799c" "d1a42ed39a15a843cccadf107ee0242b5f78bfbb5b70ba3ce19f3ea9fda8f52d" "b6db49cec08652adf1ff2341ce32c7303be313b0de38c621676122f255ee46db" "a7b47876e5da7cac6f5e61cca7a040a365ca2c498823654bd4076add8edf34c5" "aed73c6d0afcf2232bb25ed2d872c7a1c4f1bda6759f84afc24de6a1aec93da8" "d5aac94c0051c3acec2b274347b343372b4e64c3e226be7b7c56725ea26b1ba8" "a17f246690840fcf3fc26cb845ffedd2d8e1161cae386c14df61dabb9af3a5a9" "0bd7a42bd443517e5e61dac3cabc24018fbd0c6b2b4199b3c4efd9e3727efd30" "d69a0f6d860eeff5ca5f229d0373690782a99aee2410a3eed8a31332a7101f1e" "930227e22122d1881db7c2c1ae712dcf715697a1c4d9864f8107a2c3c2da9f8b" "b1bcb837df0455af8e91114b7a3bddfa084cde32ceb16b1b468d5e5e8605a835" "2162da67ce86c514aff010de1b040fb26663ca42afebc2de26515d741121c435" "39e93a10eb292941640adfe28509e0c3eeb84e30cbfed6ef9841be136081ca34" "e1551b5516e0a439b6ab019ba00cee866e735f66f22ff67a5d882ad0f1383454" "50e7f9d112e821e42bd2b8410d50de966c35c7434dec12ddea99cb05dd368dd8" "03e3e79fb2b344e41a7df897818b7969ca51a15a67dc0c30ebbdeb9ea2cd4492" "e254f8e18ba82e55572c5e18f3ac9c2bd6728a7e500f6cc216e0c6f6f8ea7003" "43aeadb0c8634a9b2f981ed096b3c7823c511d507a51c604e4667becb5ef6e35" "101a10b15bbbd0d5a0e56e4773e614962197886780afb2d62523a63a144ad96c" "c70cc9c4c6257d70f5c11b90cb9e8b1e54e6edd6aa43f39879746e16a70533f5" "aa87469691932ff791f966bffb885ecd97ebfa4dc4d42e479f3819ac4a3fbcaf" "9f6750057fefba39c184783c7b80ddd9c63bc6e8064846b423b4362c9e930404" "06fc6014871028d24b4e03db24b9efee48bd73dce0afdc15e9124f09fab64afa" "890d09dcc8d2326e98eee74b307b2cc42f07ab7701bcff521e6152aa3e08f7a8" "9e87bddff84cbce28c01fa05eb22f986d770628fa202cd5ca0cd7ed53db2f068" "b4ec581daad15aa7020b722523dc6bcea850bfbdbe31bfeb11c45ea51899bd75" "e8e744a1b0726814ac3ab86ad5ccdf658b9ff1c5a63c4dc23841007874044d4a" "f2503f0a035c2122984e90eb184185769ee665de5864edc19b339856942d2d2d" "e8bba3c8e8caea2c7a8b6932b0db8d9bdb468c9b44bf554f37b56093d23fde57" "f245c9f24b609b00441a6a336bcc556fe38a6b24bfc0ca4aedd4fe23d858ba31" "0b6645497e51d80eda1d337d6cabe31814d6c381e69491931a688836c16137ed" "76bd62f6ce376bf0597fab7f478eaa98cd94a7b41f0ae46de63a958fbe99c1d9" "09669536b4a71f409e7e2fd56609cd7f0dff2850d4cbfb43916cc1843c463b80" "294834baa9ca874795a3181cce7aaf228b1e3fb3899587ffd3ae7546de328c90" "f21caace402180ab3dc5157d2bb843c4daafbe64aadc362c9f4558ac17ce43a2" "8e3f020f1ce69cfa0c1ebee4e198feb28dd7eb31b7d77927e9c790819210c654" "e033c4abd259afac2475abd9545f2099a567eb0e5ec4d1ed13567a77c1919f8f" "db9feb330fd7cb170b01b8c3c6ecdc5179fc321f1a4824da6c53609b033b2810" "59ca830d4df5e79503b79103485d28c6a578ca14d526ffc6a43596808daf1282" "16d6e7f87846801e17e0c8abc331cf6fa55bec73185a86a431aca6bec5d28a0a" "6916fa929b497ab630e23f2a4785b3b72ce9877640ae52088c65c00f8897d67f" "e681c4fc684a543ce97c2d55082c6585182c0089f605dc9a5fe193870f03edc6" "82cbb553a225b75ee49901fa06562941fbfe5e6fed24cda985e7ea59af7ddc80" "ad68cb14359254795c6b96d76334aaacb739c04f64a4a8567964d4a20aa723d2" "1462969067f2ff901993b313085d47e16badeec58b63b9ed67fa660cebaaddae" "e2e4e109357cfcebccb17961950da6b84f72187ade0920a4494013489df648fe" "75c0b9f9f90d95ac03f8647c75a91ec68437c12ff598e2abb22418cd4b255af0" "bf81a86f9cfa079a7bb9841bc6ecf9a2e8999b85e4ae1a4d0138975921315713" "01c5ebefcabc983c907ee30e429225337d0b4556cc1d21df0330d337275facbb" "e24679edfdea016519c0e2d4a5e57157a11f928b7ef4361d00c23a7fe54b8e01" "90b1aeef48eb5498b58f7085a54b5d2c9efef2bb98d71d85e77427ce37aec223" "d43120398682953ef18fd7e11e69c94e44d39bb2ab450c4e64815311542acbff" "3fb38c0c32f0b8ea93170be4d33631c607c60c709a546cb6199659e6308aedf7" "cdfb22711f64d0e665f40b2607879fcf2607764b2b70d672ddaa26d2da13049f" "f9574c9ede3f64d57b3aa9b9cef621d54e2e503f4d75d8613cbcc4ca1c962c21" "1e3b2c9e7e84bb886739604eae91a9afbdfb2e269936ec5dd4a9d3b7a943af7f" "f64c9f8b4241b680b186f4620afb9c82fa2a76cf4498a7431f90db59bb1892eb" "dba244449b15bdc6a3236f45cec7c2cb03de0f5cf5709a01158a278da86cb69b" "603a9c7f3ca3253cb68584cb26c408afcf4e674d7db86badcfe649dd3c538656" "40bc0ac47a9bd5b8db7304f8ef628d71e2798135935eb450483db0dbbfff8b11" "5999e12c8070b9090a2a1bbcd02ec28906e150bb2cdce5ace4f965c76cf30476" "bcc6775934c9adf5f3bd1f428326ce0dcd34d743a92df48c128e6438b815b44f" "868f73b5cf78e72ca2402e1d48675e49cc9a9619c5544af7bf216515d22b58e7" "8f0334c430540bf45dbcbc06184a2e8cb01145f0ae1027ce6b1c40876144c0c9" "304c03c9cfcd368b4ab0832357788cd48513fe1bd89b9e531dd47886a83405a1" "133222702a3c75d16ea9c50743f66b987a7209fb8b964f2c0938a816a83379a0" "b5fe3893c8808466711c1b55bb7e66b9c6aa2a86811783375a43e1beabb1af33" "b61c55259c639a54628f91452b060b99c550a1269eb947e372321b806b68f114" "fbcdb6b7890d0ec1708fa21ab08eb0cc16a8b7611bb6517b722eba3891dfc9dd" "e8586a76a96fd322ccb644ca0c3a1e4f4ca071ccfdb0f19bef90c4040d5d3841" "6998bd3671091820a6930b52aab30b776faea41449b4246fdce14079b3e7d125" "0788bfa0a0d0471984de6d367bb2358c49b25e393344d2a531e779b6cec260c5" "86a731bda96ed5ed69980b4cbafe45614ec3c288da3b773e4585101e7ece40d2" "51277c9add74612c7624a276e1ee3c7d89b2f38b1609eed6759965f9d4254369" "beeb5ac6b65fcccfe434071d4624ff0308b5968bf2f0c01b567d212bcaf66054" "06f0b439b62164c6f8f84fdda32b62fb50b6d00e8b01c2208e55543a6337433a" "628278136f88aa1a151bb2d6c8a86bf2b7631fbea5f0f76cba2a0079cd910f7d" "bb08c73af94ee74453c90422485b29e5643b73b05e8de029a6909af6a3fb3f58" "1b8d67b43ff1723960eb5e0cba512a2c7a2ad544ddb2533a90101fd1852b426e" "82d2cac368ccdec2fcc7573f24c3f79654b78bf133096f9b40c20d97ec1d8016" "7dd0db710296c4cec57c39068bfffa63861bf919fb6be1971012ca42346a417f" "b747fb36e99bc7f497248eafd6e32b45613ee086da74d1d92a8da59d37b9a829" "c0dd5017b9f1928f1f337110c2da10a20f76da0a5b14bb1fec0f243c4eb224d4" "a621dd9749f2651e357a61f8d8d2d16fb6cacde3b3784d02151952e1b9781f05" "0f302165235625ca5a827ac2f963c102a635f27879637d9021c04d845a32c568" "6a674ffa24341f2f129793923d0b5f26d59a8891edd7d9330a258b58e767778a" "5e402ccb94e32d7d09e300fb07a62dc0094bb2f16cd2ab8847b94b01b9d5e866" "ff6a8955945028387ed1a2b0338580274609fbb0d40cd011b98ca06bd00d9233" "0973b33d2f15e6eaf88400eee3dc8357ad8ae83d2ca43c125339b25850773a70" "b48599e24e6db1ea612061252e71abc2c05c05ac4b6ad532ad99ee085c7961a7" "72c530c9c8f3561b5ab3bf5cda948cd917de23f48d9825b7a781fe1c0d737f2f" "cb39485fd94dabefc5f2b729b963cbd0bac9461000c57eae454131ed4954a8ac" "09feeb867d1ca5c1a33050d857ad6a5d62ad888f4b9136ec42002d6cdf310235" "a455366c5cdacebd8adaa99d50e37430b0170326e7640a688e9d9ad406e2edfd" "aad7fd3672aad03901bf91e338cd530b87efc2162697a6bef79d7f8281fd97e3" "cedd3b4295ac0a41ef48376e16b4745c25fa8e7b4f706173083f16d5792bb379" "fa2b58bb98b62c3b8cf3b6f02f058ef7827a8e497125de0254f56e373abee088" "bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" "2305decca2d6ea63a408edd4701edf5f4f5e19312114c9d1e1d5ffe3112cde58" "790e74b900c074ac8f64fa0b610ad05bcfece9be44e8f5340d2d94c1e47538de" "e97dbbb2b1c42b8588e16523824bc0cb3a21b91eefd6502879cf5baa1fa32e10" "4aee8551b53a43a883cb0b7f3255d6859d766b6c5e14bcb01bed572fcbef4328" "4cf3221feff536e2b3385209e9b9dc4c2e0818a69a1cdb4b522756bcdf4e00a4" "8e00def3665690f92fe007e085bc7d9a28ba531a4ebc4b872f56f9348b1f6207" default)))
+ '(default-input-method "german")
+ '(emojify-emoji-styles (quote (github unicode)))
+ '(fci-rule-color "#232A2F" t)
+ '(global-centered-cursor-mode t)
+ '(global-emojify-mode nil)
+ '(global-git-gutter-mode t)
+ '(global-linum-mode t)
+ '(haskell-mode-hook (quote (turn-on-haskell-indentation turn-on-haskell-doc)))
+ '(helm-mode t)
+ '(helm-recentf-fuzzy-match t)
+ '(highlight-changes-colors (quote ("#FD5FF0" "#AE81FF")))
+ '(highlight-symbol-colors
+   (--map
+    (solarized-color-blend it "#fdf6e3" 0.25)
+    (quote
+     ("#b58900" "#2aa198" "#dc322f" "#6c71c4" "#859900" "#cb4b16" "#268bd2"))))
+ '(highlight-symbol-foreground-color "#586e75")
+ '(highlight-tail-colors
+   (quote
+    (("#49483E" . 0)
+     ("#679A01" . 20)
+     ("#4BBEAE" . 30)
+     ("#1DB4D0" . 50)
+     ("#9A8F21" . 60)
+     ("#A75B00" . 70)
+     ("#F309DF" . 85)
+     ("#49483E" . 100))))
+ '(hl-bg-colors
+   (quote
+    ("#DEB542" "#F2804F" "#FF6E64" "#F771AC" "#9EA0E5" "#69B7F0" "#69CABF" "#B4C342")))
+ '(hl-fg-colors
+   (quote
+    ("#fdf6e3" "#fdf6e3" "#fdf6e3" "#fdf6e3" "#fdf6e3" "#fdf6e3" "#fdf6e3" "#fdf6e3")))
+ '(hl-sexp-background-color "#efebe9")
+ '(ibuffer-deletion-face (quote diredp-deletion-file-name))
+ '(ibuffer-marked-face (quote diredp-flag-mark))
+ '(js2-strict-missing-semi-warning nil)
+ '(magit-diff-use-overlays nil)
+ '(monroe-default-host "localhost:")
+ '(multi-term-default-dir "~/dev")
+ '(multi-term-program "/bin/zsh")
+ '(neo-dont-be-alone t)
+ '(neo-hidden-regexp-list (quote ("^\\.")))
+ '(neo-show-hidden-files nil)
+ '(neo-theme (quote arrow))
+ '(neo-window-fixed-size nil)
+ '(neo-window-width 18)
+ '(nrepl-message-colors
+   (quote
+    ("#dc322f" "#cb4b16" "#b58900" "#546E00" "#B4C342" "#00629D" "#2aa198" "#d33682" "#6c71c4")))
+ '(ohai-personal-taste/paredit t)
+ '(ohai-personal-taste/run-wizard nil)
+ '(ohai-personal-taste/splash nil)
+ '(ohai-personal-taste/style (quote dark))
+ '(ohai-personal-taste/training-wheels nil)
+ '(ohai-personal-taste/window-state (quote normal))
+ '(ohai/modules
+   (quote
+    (ohai-appearance ohai-fonts ohai-general ohai-splash ohai-ido ohai-navigation ohai-editing ohai-complete ohai-snippets ohai-codestyle ohai-dired ohai-project ohai-flycheck ohai-git ohai-orgmode ohai-help ohai-elisp ohai-helm ohai-eshell ohai-refactor ohai-emoji ohai-html ohai-markdown ohai-javascript ohai-js-web-mode ohai-clojure ohai-erlang ohai-elixir ohai-haskell ohai-flow)))
+ '(org-startup-with-inline-images t)
+ '(org-startup-with-latex-preview t)
+ '(package-selected-packages
+   (quote
+    (ahungry-theme ample-theme ample-zen-theme autumn-light-theme faff-theme gandalf-theme green-phosphor-theme hydandata-light-theme labburn-theme leuven-theme liso-theme lush-theme majapahit-theme meacupla-theme micgoline minimal-theme org-beautify-theme pastels-on-dark-theme professional-theme railscasts-theme smyx-theme ein 2048-game 0blayout airplay anybar term-cmd tldr popup s dash julia-mode google-c-style ac-slime powerline colonoscopy-theme osc osx-dictionary osx-lib solarized-theme solidity-mode ivy-bibtex wolfram-mode ivy latest-clojars nzenburn-theme steady-theme steam centered-cursor-mode helm-ag ag slime-js helm-dash elisp-lint exec-path-from-shell slime typing typing-game flx-isearch clojars jabber 4clojure hackernews firebelly-theme firecode-theme heroku-theme farmhouse-theme subatomic256-theme atom-dark-theme atom-one-dark-theme cyberpunk-theme base16-theme abyss-theme ztree direx monokai-theme web-beautify zenity-color-picker impatient-mode ace-jump-mode csharp-mode paredit-menu js-comint elscreen tangotango-theme tao-theme theme-looper tommyh-theme toxi-theme hc-zenburn-theme esup clojure-mode-extra-font-locking color-theme-sanityinc-tomorrow colorsarenice-theme silkworm-theme tronesque-theme spacemacs-theme fireplace thesaurus undo-tree clojurescript-mode slack which-key web-mode web volatile-highlights use-package typescript-mode tabbar swiper-helm smex shrink-whitespace rainbow-mode rainbow-delimiters paradox palette org-plus-contrib org-cliplink org-bullets nyan-mode neotree multi-term monroe material-theme markdown-mode magit json-mode js2-refactor ido-vertical-mode ido-ubiquitous hlinum highlight-parentheses helm-projectile git-gutter-fringe gist flycheck-haskell flycheck-color-mode-line flx-ido f expand-region ethan-wspace eshell-git-prompt erlang emr emojify edit-server discover-my-major dired+ company-try-hard company-tern company-quickhelp company-emoji color-theme-sanityinc-solarized clojure-quick-repls clj-refactor aurora-theme anzu alchemist ace-window)))
+ '(paradox-automatically-star nil)
+ '(paradox-column-width-download 4)
+ '(paradox-column-width-package 25)
+ '(paradox-display-download-count t)
+ '(paradox-execute-asynchronously t)
+ '(paradox-github-token t)
+ '(paradox-lines-per-entry 1)
+ '(pos-tip-background-color "#A6E22E")
+ '(pos-tip-foreground-color "#272822")
+ '(rainbow-identifiers-choose-face-function (quote rainbow-identifiers-cie-l*a*b*-choose-face))
+ '(rainbow-identifiers-cie-l*a*b*-color-count 1024)
+ '(rainbow-identifiers-cie-l*a*b*-lightness 70)
+ '(rainbow-identifiers-cie-l*a*b*-saturation 20)
+ '(recentf-max-saved-items 2000)
+ '(recentf-mode t)
+ '(red "#ffffff")
+ '(smartrep-mode-line-active-bg (solarized-color-blend "#859900" "#eee8d5" 0.2))
+ '(tabbar-mode nil nil (tabbar))
+ '(term-default-bg-color "#fdf6e3")
+ '(term-default-fg-color "#657b83")
+ '(tool-bar-mode t)
+ '(tool-bar-position (quote bottom) t)
+ '(vc-annotate-background "#2B3B40")
+ '(vc-annotate-color-map
+   (quote
+    ((20 . "#74CBC4")
+     (40 . "#74CBC4")
+     (60 . "#C2E982")
+     (80 . "#FFC400")
+     (100 . "#C792EA")
+     (120 . "#C792EA")
+     (140 . "#546D7A")
+     (160 . "#546D7A")
+     (180 . "#FF516D")
+     (200 . "#9FC59F")
+     (220 . "#859900")
+     (240 . "#F77669")
+     (260 . "#FF516D")
+     (280 . "#82B1FF")
+     (300 . "#82B1FF")
+     (320 . "#82B1FF")
+     (340 . "#D9F5DD")
+     (360 . "#FFCB6B"))))
+ '(vc-annotate-very-old-color "#FFCB6B")
+ '(web-mode-enable-element-tag-fontification t)
+ '(weechat-color-list
+   (unspecified "#272822" "#49483E" "#F70057" "#F92672" "#86C30D" "#A6E22E" "#BEB244" "#E6DB74" "#40CAE4" "#66D9EF" "#FB35EA" "#FD5FF0" "#74DBCD" "#A1EFE4" "#F8F8F2" "#F8F8F0"))
+ '(when
+      (or
+       (not
+        (boundp
+         (quote ansi-term-color-vector)))
+       (not
+        (facep
+         (aref ansi-term-color-vector 0)))))
+ '(xterm-color-names
+   ["#eee8d5" "#dc322f" "#859900" "#b58900" "#268bd2" "#d33682" "#2aa198" "#073642"])
+ '(xterm-color-names-bright
+   ["#fdf6e3" "#cb4b16" "#93a1a1" "#839496" "#657b83" "#6c71c4" "#586e75" "#002b36"]))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(rainbow-delimiters-depth-1-face ((t (:foreground "wheat3"))))
+ '(rainbow-delimiters-depth-2-face ((t (:foreground "orange"))))
+ '(rainbow-delimiters-depth-3-face ((t (:foreground "gold1"))))
+ '(rainbow-delimiters-depth-4-face ((t (:foreground "chartreuse2"))))
+ '(rainbow-delimiters-depth-5-face ((t (:foreground "dodger blue"))))
+ '(rainbow-delimiters-depth-6-face ((t (:foreground "turquoise3"))))
+ '(rainbow-delimiters-depth-7-face ((t (:foreground "hot pink"))))
+ '(rainbow-delimiters-depth-8-face ((t (:foreground "tomato3"))))
+ '(rainbow-delimiters-depth-9-face ((t (:foreground "SpringGreen2")))))

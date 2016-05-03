@@ -1,0 +1,8 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: org.header
+# key: doc
+# --
+#+TITLE: $1
+#+AUTHOR: `(ohai/user-full-name)`
+#+EMAIL: `(ohai/user-email)`
+$0
